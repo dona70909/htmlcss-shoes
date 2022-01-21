@@ -4,12 +4,6 @@
     margin: 0;
 }
 
-header{
-   /*  position:fixed; */
-   position: relative;
-   z-index: 2;
-}
-
 button{
     border-radius: 50%;
     font-size: 25px;
@@ -17,9 +11,7 @@ button{
     height: 50px;
     margin-right: 10px;
     font-weight: 900;
-
 }
-
 a{
     text-decoration: none;
     color: black;
@@ -30,13 +22,6 @@ img{
     height: 350px;
 }
 
-.container-button{
-    float:right;
-    padding:20px 20px 0 0;
-   position: absolute;
-   top:20px;
-   right:10px;
-}
 
 
 .clearfix::after{
@@ -45,8 +30,16 @@ img{
     clear:both ;
 }
 
+.container-button{
+    float:right;
+    top:20px;
+    right:10px ; 
+    padding:20px 20px 0 20px; 
 
-
+   /*  height: 100px; */
+    position: fixed;
+    z-index: 1;
+}
 
 .container-red{
     position: relative;
