@@ -4,20 +4,23 @@
     margin: 0;
 }
 
-header {
-    /* position: fixed; */
-   
+header{
+   /*  position:fixed; */
 }
 
-/* .container-button{
+.container-button{
     float:right;
-} */
+    padding:20px 20px 0 0;
+   /*  overflow: hidden; */
+}
 
 button{
     border-radius: 50%;
     font-size: 25px;
     width: 50px;
     height: 50px;
+ /*    float: right; */
+  /*   display: block; */
 }
 
 a{
@@ -30,8 +33,6 @@ a{
     display: table;
     clear:both ;
 }
-
-
 
 .container-red{
     background-color: red;
@@ -51,10 +52,9 @@ a{
     height: 100vh;
 }
 
-.description{
+.description {
     text-transform:uppercase;
     font-size: 50px;
     font-weight: 800;
     text-align: center;
-    
 }
