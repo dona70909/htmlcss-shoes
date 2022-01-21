@@ -6,12 +6,7 @@
 
 header{
    /*  position:fixed; */
-}
-
-.container-button{
-    float:right;
-    padding:20px 20px 0 0;
-   /*  overflow: hidden; */
+   position: relative;
 }
 
 button{
@@ -19,13 +14,20 @@ button{
     font-size: 25px;
     width: 50px;
     height: 50px;
- /*    float: right; */
-  /*   display: block; */
+   /*    float: right; */
+   /*   display: block; */
+   margin-right: 10px;
+
 }
 
 a{
     text-decoration: none;
     color: black;
+}
+
+img{
+    width:500px;
+    height: 350px;
 }
 
 .clearfix::after{
@@ -34,27 +36,55 @@ a{
     clear:both ;
 }
 
+
+.container-button{
+    float:right;
+    padding:20px 20px 0 0;
+   /*  overflow: hidden; */
+   position: absolute;
+   top:20px;
+   right:10px;
+}
+
+
 .container-red{
+    position: relative;
     background-color: red;
     width: 100vw;
     height: 100vh;
 }
 
 .container-green{
+    position: relative;
     background-color: green;
     width: 100vw;
     height: 100vh;
 }
 
 .container-yellow{
+    position: relative;
     background-color: yellow;
     width: 100vw;
     height: 100vh;
 }
 
 .description {
+    bottom:20px;
     text-transform:uppercase;
     font-size: 50px;
     font-weight: 800;
     text-align: center;
 }
+
+.container-elements{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+    
+
+
+
+
